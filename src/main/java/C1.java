@@ -11,6 +11,15 @@ import java.util.Map;
  * @date 2020/7/10 0010 14:43
  */
 public class C1 {
+    /**
+     将学生成绩列表转换成两级的Map，用于查询任意学生的任意课程成绩
+     参数 list : 一个学年全部学生一学期全部课程成绩
+     返回值:  两级的map，key是学生学号，value是这个学生的所有成绩的map（key是课程编号， value 该学生这门课的成绩)
+     2. 假设上题中C1类对应着一张数据库中的学生成绩表，其中数据是一个年级所有学生一个学期的所有课程成绩。
+     请用一条SQL语句查询出，这个学期得全优（>=90分为优）的学生中总成绩排名前10的学生。
+
+     *
+     * @return*/
     public int stuid; // 学生学号
     public int courseid; // 课程编号
     public int score; // 分数
